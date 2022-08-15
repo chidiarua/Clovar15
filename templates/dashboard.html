@@ -19,44 +19,44 @@
       <br />
       <br />
       <br />
-      <h3>PACCI</h3>
+      <h3>{{user.username}}</h3>
       <h6>example.mycms.com</h6>
       <br />
       <br />
       <br />
 
       <img src="{% static 'assets/images/home.png' %}" alt="" width="25px" height="25x" />
-      <a href="">My Home</a> <br />
+      <a href="{% url 'home' %}">My Home</a> <br />
       <br />
       <img src="{% static 'assets/images/stats.png' %}" alt="" width="25px" height="25x" />
-      <a href="">Stats</a> <br />
+      <a href="{% url 'soon' %}">Stats</a> <br />
       <br />
       <img src="{% static 'assets/images/media.png' %}" alt="" width="25px" height="25x" />
-      <a href="">Media</a> <br />
+      <a href="{% url 'soon' %}">Media</a> <br />
       <br />
       <img src="{% static 'assets/images/comments.png' %}" alt="" width="25px" height="25x" />
-      <a href="">Comments</a> <br />
+      <a href="{% url 'soon' %}">Comments</a> <br />
       <br />
       <img src="{% static 'assets/images/feedback.png' %}" alt="" width="25px" height="25x" />
-      <a href="">Feedback</a> <br />
+      <a href="{% url 'soon' %}">Feedback</a> <br />
       <br />
       <br />
       <br />
       <br />
       <img src="{% static 'assets/images/appearance.png' %}" alt="" width="25px" height="25x" />
-      <a href="">Appearance</a> <br />
+      <a href="{% url 'soon' %}">Appearance</a> <br />
       <br />
       <img src="{% static 'assets/images/plugins.png' %}" alt="" width="25px" height="25x" />
-      <a href="">Plugins</a> <br />
+      <a href="{% url 'soon' %}">Plugins</a> <br />
       <br />
       <img src="{% static 'assets/images/tools.png' %}" alt="" width="25px" height="25x" />
-      <a href="">Tools</a> <br />
+      <a href="{% url 'soon' %}">Tools</a> <br />
       <br />
       <img src="{% static 'assets/images/users.png' %}" alt="" width="25px" height="25x" />
       <a href="{% url 'users' %}">Users</a> <br />
       <br />
       <img src="{% static 'assets/images/settings.png' %}" alt="" width="25px" height="25x" />
-      <a href="">Settings</a> <br />
+      <a href="{% url 'soon' %}">Settings</a> <br />
       <br />
     </nav>
     <main>
